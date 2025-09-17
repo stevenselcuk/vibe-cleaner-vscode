@@ -26,8 +26,8 @@ TODO: add demo but 🍗
 
 | Command | Description |
 | ---------------------------------- | ----------------------------------------------------------- |
-| **Remove Comments**                | Removes all comments from the currently active file.        |
-| **Remove console.log Statements**  | Removes all `console.log` statements from the active file. |
+| **Clean Comments**                | Removes all comments from the currently active file.        |
+| **Clean console.logs**  | Removes all `console.log` statements from the active file. |
 
 ## 📜 Changelog
 
