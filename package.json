@@ -3,7 +3,7 @@
   "displayName": "vibe-cleaner",
   "icon": "resources/icon.png",
   "description": "Extension that cleans after your AI Assistant. Cleans comments and console.logs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Tabby",
   "engines": {
     "vscode": "^1.104.0"
