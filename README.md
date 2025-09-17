@@ -1,65 +1,46 @@
-# tabbycat-vibecleaner README
+# Code Cleaner (Comment & Console Remover)
 
-This is the README for your extension "tabbycat-vibecleaner". After writing up a brief description, we recommend including the following sections.
 
-## Features
+Tired of comments and `console.log` statements cluttering your codebase? **Code Cleaner** is a simple yet powerful Visual Studio Code extension designed to help you instantly clean up this noise from your JavaScript, JSX, and TSX files.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+It's the perfect tool for making your production code cleaner and more readable with a single command.
 
-For example if there is an image subfolder under your extension project workspace:
+## ✨ Features
 
-\!\[feature X\]\(images/feature-x.png\)
+*   **Smart Comment Removal:** Removes all single-line (`//`) and multi-line (`/* ... */`) comments. It's smart enough to ignore comment-like patterns inside string literals or URLs.
+*   **Dedicated `console.log` Removal:** Strips out all `console.log()` statements with a separate, dedicated command.
+*   **Broad Language Support:** Fully compatible with JavaScript (`.js`), JSX (`.jsx`), TypeScript (`.ts`), and TSX (`.tsx`) files.
+*   **Easy to Use:** Works with two simple commands right out of the box—no configuration required.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 🚀 Demo
 
-## Requirements
+TODO: add demo but 🍗
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 🛠️ How to Use
 
-## Extension Settings
+1.  Open the file you want to clean in VS Code.
+2.  Open the **Command Palette**: `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+3.  Type the name of the desired command, select it, and press Enter.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Available Commands
 
-For example:
+| Command | Description |
+| ---------------------------------- | ----------------------------------------------------------- |
+| **Remove Comments**                | Removes all comments from the currently active file.        |
+| **Remove console.log Statements**  | Removes all `console.log` statements from the active file. |
 
-This extension contributes the following settings:
+## 📜 Changelog
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+See the [CHANGELOG.md](./CHANGELOG.md) file for a detailed list of changes and new features.
 
-## Known Issues
+## 🐞 Reporting Bugs and Suggestions
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Found a bug or have a feature request? Please create an issue on our [GitHub Issues](https://github.com/stevenselcuk/vibe-cleaner-vscode/issues) page.
 
-## Release Notes
+## 📄 License
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Made with ❤️ by Steve**
