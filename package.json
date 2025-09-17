@@ -1,10 +1,16 @@
 {
   "name": "tabbycat-vibecleaner",
   "displayName": "vibe-cleaner",
-  "description": "extension that cleans after your AI Assistant",
+  "icon": "resources/icon.png",
+  "description": "Extension that cleans after your AI Assistant. Cleans comments and console.logs",
   "version": "0.0.1",
+  "publisher": "Tabby",
   "engines": {
     "vscode": "^1.104.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenselcuk/vibe-cleaner-vscode.git"
   },
   "categories": [
     "Other"
